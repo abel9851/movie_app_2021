@@ -16,9 +16,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "deploy": "gh-pages -d build",
-    "predeploy": "npm run build"
+    "build": "react-scripts build"
   },
   "eslintConfig": {
     "extends": [
@@ -42,5 +40,5 @@
     "eslint": "^7.18.0",
     "eslint-plugin-react": "^7.22.0"
   },
-  "homepage": "http://abel9851.github.io/movie_app_2021/"
+  "hompage": "http://abel9851.github.io/movie_app_2021/"
 }
