@@ -29,6 +29,7 @@ class App extends React.Component {
       <div>
         {isLoading
           ? "Loading"
+          {/*check the arrow function*/}
           : movies.map((movie) => (
               <Movie
                 key={movie.id}

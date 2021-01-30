@@ -16,7 +16,7 @@ class App extends React.Component {
     } = await axios.get(
       "https://yts-proxy.nomadcoders1.now.sh/list_movies.json?sort_by=rating"
     );
-    this.setState({ movies, isLoading: false });
+    this.setState({movies})
   };
 
   componentDidMount() {
@@ -29,6 +29,7 @@ class App extends React.Component {
       <div>
         {isLoading
           ? "Loading"
+          {/*check the arrow function*/}
           : movies.map((movie) => (
               <Movie
                 key={movie.id}
